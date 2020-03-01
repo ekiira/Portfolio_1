@@ -1,0 +1,335 @@
+body{
+  font-family: 'Roboto', sans-serif;  
+  color:#555555;
+}
+h3{
+    font-size: 36px;
+    color: #555555;
+    font-family: 'Roboto Mono', monospace;
+}
+#hello .btn-primary{
+    background-color: #6d56c1;
+    border-radius:25px;
+    color:#fff;
+    border-color: #6d56c1;
+}
+#one .icons{
+    font-size: 27px;
+    opacity: .5;
+}
+#resume .resume-list{
+    border-left:2px solid #6d56c1;   
+}
+#resume{
+    font-size: 18px;
+}
+#resume .place{
+    font-size: 14px;
+    color: #6d56c1;
+    font-family: 'Roboto Mono', monospace;
+}
+#resume .date{
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Inconsolata', monospace;
+}
+.resume-list::before{
+    content:"";
+   border:2px solid #6d56c1;
+    height: 12px;
+    width:12px;
+    left:10px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+#resume .honours{
+    font-size: 18px;
+}
+#resume .faint{
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+    color:#999999;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.progress-bar-text{
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.progress{
+    margin-bottom: 30px;
+    background-color: #e9ecef;
+}
+.progress-bar{
+    background-color: #6d56c1;
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+}
+.animated {
+    -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+.navbar.scrolled{
+    background-color: #6d56c1;
+    transition:background 400ms; 
+}
+#one{
+    background: url("assets/john.png")no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.bans::before{
+    content:"";
+    background: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    opacity:1;
+    z-index: 0;
+}
+.show img{
+    height:380px;
+    width:90%;
+    margin-top: 30px;
+    object-fit: cover;
+}
+.show a{
+    color: white;
+}
+dt{
+    float: left;
+}
+dd{
+    padding-left: 100px;
+}
+#contact{
+    color: white;
+}
+#contact dl{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+#contact h3{
+    color:white;
+}
+#contact .title{
+    font-family:'Roboto Mono', monospace;
+    font-size: 16px;
+}
+#contact ul{
+    padding-inline-start: 0;
+}
+.contact-list a{
+    color: white;
+}
+.social a{
+    text-decoration: underline;
+    color: white;
+}
+.social li{
+    list-style: none;
+}
+.social a:hover{
+    text-decoration: none;
+    color:#6d56c1;
+    background-color: white;
+}
+#contact input{
+    background: transparent;
+    border-color: #fff;
+}
+#contact input:focus{
+    box-shadow: inset 0 0 5px 0 #fff;
+    border: 1px solid #fff;
+}
+#contact .space .btn-primary{
+    background-color: #6d56c1;
+    color: white;
+    font-size: 14px;
+    border: none!important;
+    box-shadow: 0 1px 29px rgba(0,0,0,.16);
+    height: 50px;
+    border-radius:25px;
+    padding: 15px;
+    font-weight: 600;
+    width:100%;
+}
+#contact .space .btn-primary:hover{
+    background-color: #7b67c7;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.break{
+    float:right;
+}
+#portfolio ul{
+    padding-inline-start: 0;
+}
+.portfolio-menu li{
+    display: inline-block;
+    padding-right: 50px;
+    color:#999999;
+}
+.portfolio-menu .active {
+    color: #6d56c1;
+}
+.portfolio-menu li:hover{
+    color: #6d56c1;
+}
+.portfolio-cards a{
+    float: right;
+     color: #6d56c1;
+}
+.portfolio-cards ul{
+    padding-inline-start: 0;
+}
+.tags li{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.project-card{
+    margin-bottom: 30px;
+}
+.project-card-img{
+    padding-right: 0;
+}
+.project-card-info{
+    border: 1px solid #f1f1f1;
+    border-left: none;
+    padding: 50px 50px 40px 30px;
+}
+.project-card-info .wide{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+}
+.overlay{
+    background: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
+     
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    height: 8px;
+    width:8px;
+    background-color: transparent;
+    border:1px solid #fff;
+}
+.carousel-inner{
+    color:#fff;
+}
+.carousel-inner .project{
+    font-size: 16px;
+    opacity: .7;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.carousel-inner hr{
+    border-top:1px solid #a98a79;
+    margin-bottom:20px;
+}
+.carousel-item .description{
+    font-size: 18px;
+}
+#blog a:hover{
+    text-decoration: none;
+}
+#blog a:focus{
+    text-decoration: underline;
+}
+#blog .card-body{
+    padding:15px 30px 30px 15px;
+}
+#blog .card-date{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#999;
+}
+#blog .card-title{
+    font-family: "Roboto Mono", monospace;
+    color:#555;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+}
+#blog .card-description{
+    color:#999;
+    font-size: 14px;
+}
+footer p{
+    font-family:'Roboto Mono', monospace;
+    font-size: 16px;
+    opacity: .4;
+}
